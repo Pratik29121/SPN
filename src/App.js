@@ -12,9 +12,9 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <NavbarElements />
+        <NavbarElements />
       <Routes>
-        <Route path="/" element={<div>Home Page</div>} />
+        <Route path="/" element={<Signin />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/courses" element={<Courses />} />
